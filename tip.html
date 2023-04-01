@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habeebdev's Tip calcuator</title>
+    <link rel="stylesheet" href="tip-calculator-app-main/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="tip-calculator-app-main/images/logo.svg"
+        alt="logo"
+      />
+
+      <div class="thecalculator">
+        <div class="first">
+          <div class="header">
+            <h1>Bill</h1>
+            <input class="headerbill" type="number"  value=""/>
+          </div>
+          <div class="selecttip">
+            <h1>Select Tip %</h1>
+            <div class="thetip">
+              <button class="percent"> <span class="number">5</span>% </button>
+              <button class="percent"> <span class="number">10</span>%</button> 
+              <button class="percent"> <span class="number">20</span>% </button>
+              <button class="percent"> <span class="number">25</span>%</button>
+              <button class="percent"> <span class="number">50</span>%</button>
+              <input  class="custom" type="number" placeholder="custom" value=""/>
+            </div>
+          </div>
+          <div class="noofpeople">
+            <div class="headNoOfPeople">
+            <p>Number of People</p>
+            <p class="zero"  style="color: red;">can't be zero</p> </div>
+            <div class="input">
+              <input class="person" type="number" value="" />
+            </div>
+          </div>
+        </div>
+        <div class="second">
+          <div class="tipamount">
+            <div class="amount">
+              <h1>Tip Amount</h1>
+              <p>person</p>
+            </div>
+            <div class="dollar">
+              <p class="perpesonbill">
+            <b> $<span class="perpersondollar">0.00</span> </b>
+              </p>
+            </div>
+          </div>
+          <div class="tipamount1">
+            <div class="amount">
+              <h1>Total</h1>
+              <p>/ person</p>
+            </div>
+            <div class="dollar">
+              <p class="totalbill">
+           <b> $<span class="totalpersondollar">0.00</span>  </b>
+              </p>
+            </div>
+         
+          </div>
+          <div class="btn">
+          <button class="reset">RESET</button>
+        </div>
+        </div>
+      </div>
+      <div class="copywright">
+        <p>
+          <a href="https://github.com/owoadehabeeb04">Habeebdev_</a>|| 2023.
+        </p>
+      </div>
+    </div>
+
+    <script src="tip-calculator-app-main/script.js"></script>
+  </body>
+</html>

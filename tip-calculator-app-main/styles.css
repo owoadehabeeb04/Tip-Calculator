@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+
+    
+ /* Very dark cyan hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%) */
+
+ 
+* {
+    padding: 0; 
+    margin: 0;
+   
+} 
+
+.noofpeople input {
+    background-image: url(tip-calculator-app-main/images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+ height: 30px;
+}   
+.first {
+    width: 100%;
+}
+body {
+    background-color:  hsl(185, 41%, 84%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Mono';
+    box-sizing: border-box;
+}
+.container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 0 auto;
+padding-top: 4rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.thecalculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    padding: 3rem;
+    width: 100%;   
+    border-radius: 15px; 
+    margin-top: 2rem;
+}
+.header {
+    margin-top: 2rem    ;
+}
+
+.header input[type=number] {
+    width: 100%;
+    background-color:  hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+font-size: 1.5rem;
+border: 2px solid hsl(189, 41%, 97%);
+text-align: right;
+background-image: url(./images/icon-dollar.svg);
+background-repeat: no-repeat;
+}
+.header input[type=number]:focus {
+    border: 2px solid green;
+}
+.header h1 {
+    font-family: 'Space Mono';
+    font-size: 0.7rem;
+    color: hsl(186, 14%, 43%);
+}
+.selecttip h1 {
+    color: hsl(186, 14%, 43%);
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+.selecttip {
+    margin-top: 2rem;
+}
+.thetip button {
+    background-color: hsl(183, 100%, 15%);
+    border: 2px solid hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 2px;
+    padding: 0.5rem  0rem;
+    cursor: pointer;
+    font-family: 'Space Mono';
+    font-weight: 700;
+}
+.thetip button:hover {
+    color:  hsl(183, 100%, 15%);
+    
+}
+.thetip button:hover::after {
+    color:  hsl(183, 100%, 15%);    
+}
+.thetip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-gap: 10px;
+}
+.thetip input[type=number] {
+    background-color:  hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);;
+    border: 2px solid hsl(189, 41%, 97%);
+    cursor: pointer;
+text-align: right;
+}
+.thetip input[type=number]::placeholder {
+    color: hsl(184, 14%, 56%);;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.thetip input[type=number]:-moz-first-node {
+    float: right;
+}
+.selecttip input {
+    background-color:  hsl(189, 41%, 97%);
+   color: hsl(184, 14%, 56%);   
+}
+.headNoOfPeople {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+  .input input[type=number] {
+    width: 100%;
+    width: 100%;
+    background-color:  hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+font-size: 1.5rem;
+border: 2px solid hsl(189, 41%, 97%);
+background-image: url(./images/icon-person.svg);
+text-align: right;
+  }
+  .noofpeople {
+    margin-top: 1.5rem;
+  }
+
+  /* tipamount */
+  .tipamount {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tipamount1 {
+    display: flex;
+    justify-content: space-between;
+   margin-top: 2rem;
+  }
+  .second {
+    background-color: hsl(183, 100%, 15%);
+    padding: 1rem;
+padding-top: 2.5rem;
+width: 100%;
+margin-left: 2rem;
+border-radius: 10px;
+  }
+.amount h1 {
+    font-size: 1rem;
+    color: white;
+}
+.amount p {
+    color: hsl(186, 14%, 43%);
+    font-size: 0.8rem  ;
+}
+.dollar p {
+    color:  hsl(172, 67%, 45%);
+    font-size: 1.5rem;
+}
+.reset {
+    background-color:  hsl(186, 14%, 43%);;
+    width: 100%;
+    font-weight: 700;
+    border: 2px solid  hsl(186, 14%, 43%);
+    padding: 0.4rem 0rem;
+    color:hsl(183, 100%, 15%) ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn {
+    margin-top: 7.5rem;
+}
+
+.copywright {
+padding-top: 1rem;
+color:hsl(183, 100%, 15%)  ;
+}
+.copywright a {
+    text-decoration: none;
+    color: hsl(183, 100%, 15%)  ;
+}
+
+button:hover {
+    background-color:  hsl(172, 67%, 45%);
+    border: 2px solid  hsl(172, 67%, 45%);
+}
+
+.noofpeople p {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: hsl(186, 14%, 43%);
+}
+ .zero {
+    display: none;
+}
+
+@media only screen and (max-width: 800px)  {
+    * {
+        box-sizing: border-box;
+            }
+}
+
+
+@media only screen and (max-width: 510px)  {
+    .thecalculator {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 2rem;
+    }
+    .thetip {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+        grid-gap: 10px;
+    }
+    .second {
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+    input[type=number] {
+     width: 100%;
+    }
+    .btn {
+        margin-top: 3rem;
+    }
+
+}
