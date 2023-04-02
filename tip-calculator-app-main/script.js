@@ -25,20 +25,20 @@ console.log(totalperson)
 
 const billvalue = parseFloat(bill.value);
 const peoplevalue = parseFloat(people.value);
-const customvalue = parseFloat(people.value);
+// const customvalue = parseFloat(people.value);
 
 
 reset.addEventListener("click", function () {
   // resetting the input tags and values
   bill.value = 0
-  people.value = 0
+  people.value =  
   totalperson.textContent = 0.00;
   custom.value = 0;
   perperson.textContent = 0.00;
 });
 
 
-bill.value = "142.55";
+bill.value = "";
 people.value = "5";
 
 // for (let i = 0; i < btnsOpenModal.length; i++)
@@ -60,23 +60,29 @@ const secondresult = (firstresult + Number(bill.value));
 console.log(secondresult)
 console.log(totalperson.textContent = secondresult);
 
+
 })
+
 
 // custominput
 
 custom.addEventListener('input', function(){
-const customresult =(custom.value /100) * bill.value *people.value
+const customresult =custom.value /100 * bill.value * people.value
 console.log(customresult)
 
 console.log(perperson.textContent = customresult)
 const customtotalresult = customresult + Number(bill.value);
  totalperson.textContent = customtotalresult 
+
 })
 
 
-if (people.value = 0) {
-  zero.style.display = 'inline-flex';
-}
+
+
+
+
+
+
 
 // console.log(numberpercentage[i])
 
@@ -132,3 +138,4 @@ if (people.value = 0) {
 //  times = onebill;
 //  }
 //  console.log(percentage);
+
