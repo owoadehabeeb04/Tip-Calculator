@@ -71,7 +71,7 @@ padding-top: 4rem;
 font-size: 1.5rem;
 border: 2px solid hsl(189, 41%, 97%);
 text-align: right;
-background-image: url(./images/icon-dollar.svg);
+background-image: url(tip-calculator-app-main/images/icon-dollar.svg);
 background-repeat: no-repeat;
 }
 .header input[type=number]:focus {
@@ -146,7 +146,7 @@ text-align: right;
     color: hsl(184, 14%, 56%);
 font-size: 1.5rem;
 border: 2px solid hsl(189, 41%, 97%);
-background-image: url(./images/icon-person.svg);
+background-image: url(tip-calculator-app-main/images/icon-person.svg);
 text-align: right;
   }
   .noofpeople {
