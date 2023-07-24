@@ -73,11 +73,14 @@ people.value <= 0
         ((Number(numberpercentage[i].textContent) / 100) * bill.value) /
         people.value;
       console.log(firstresult);
+      firstresult = Number(firstresult.toFixed(2))
       console.log((perperson.textContent = firstresult));
 
       let secondresult = firstresult + Number(bill.value);
+      secondresult = Number(secondresult.toFixed(2))
       console.log(secondresult);
       console.log((totalperson.textContent = secondresult));
+      
 
       zero.style.display = "none";
       peopleborder.style.border = "2px solid hsl(189, 41%, 97%)";
@@ -113,6 +116,3 @@ custom.addEventListener("input", function () {
   peopleborder.style.border = "2px solid hsl(189, 41%, 97%)";
         }
 });
-
-
-
